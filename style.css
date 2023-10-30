@@ -1,0 +1,93 @@
+
+/*ENCAVEZDO DE LA PAGINA */
+
+header{
+    display: flex;
+    height:80px;
+    background-color: rgba(187, 187, 187, 0.863);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 5px outset rgba(251, 252, 189, 0.897);
+    border-radius: 10px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.log img{
+    height: 100px;
+}
+
+nav a{
+    font-size: 20px;
+    padding-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: white;
+}
+
+/*CUERPO DE LA PAGINA */
+
+body{
+  font-family: sans-serif;
+  background-color: rgba(253, 236, 214, 0.575);
+  background-image: url(./Imagenes/Logo2-Grande.jpg); /* Ruta a tu imagen de fondo */
+  background-size: cover; /* Opciones para el tamaño de la imagen de fondo */
+  background-repeat: no-repeat; /* Evitar repetición de la imagen */
+  background-attachment: fixed; /* Fija la imagen de fondo */
+}
+
+  .contenedor {
+    display: flex;
+    align-items: center;
+  }
+  
+  .imagen-texto-marco {
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    margin-top: 30px; /* Margen superior para bajar la imagen desde el encabezado */
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.7); /* Color de fondo con opacidad */
+  }
+  
+  img {
+    margin-right: 10px;
+    max-width: 100%;
+  }
+  
+  .texto {
+    font-family: 'Arial', sans-serif;
+    color: black;
+   font-size: 30px;
+
+  }
+  
+  h2 {
+    font-size: 35px; /* Tamaño del título */
+    margin: 0; /* Elimina el margen predeterminado del título */
+  }
+   
+  .texto .texto1 {
+    font-size: 30px;
+    margin: 0;
+    color:black;
+  }
+
+  .imagen2{
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+    min-width: 800px;
+    max-height: 400px;
+    min-height: 400px;
+    
+  }
+  
