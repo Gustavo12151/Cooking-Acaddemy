@@ -5,7 +5,7 @@
 <title>Curso</title>
 <link rel="stylesheet" href="Inscripcion.css">
 <link rel="stylesheet" href="style.css">
-<script defer src="jscript.js"></script>
+<script src="formulario.js"></script>
 </head>
 <body>
     <header>
@@ -25,32 +25,33 @@
     <div class="container">
         <h2>Formulario de Registro</h2>
         <form id="registro-form">
-            <div class="form-group">
+            <div>
                 <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
+                <input type="text" id="nombre" name="nombre">
+                <span id="nombre-error" class="error"></span>
             </div>
-            <div class="form-group">
+            <div>
                 <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido" required>
+                <input type="text" id="apellido" name="apellido">
+                <span id="apellido-error" class="error"></span>
             </div>
-            <div class="form-group">
+            <div>
                 <label for="correo">Correo:</label>
-                <input type="email" id="correo" name="correo" required>
+                <input type="text" id="correo" name="correo">
+                <span id="correo-error" class="error"></span>
             </div>
-            <div class="form-group">
-                <label for="curso">Seleccionar un curso:</label>
-                <select id="curso" name="curso" required>
+            <div>
+                <label for="curso">Curso:</label>
+                <select id="curso" name="curso">
                     <option value="" disabled selected>Selecciona un curso</option>
-                    <option value="Cocina Japonesa">Curso de Cocina Japonesa</option>
-                    <option value="Costumbre Argentina">Curso de Costumbre Argentina</option>
-                    <option value="Pasteleria">Curso de Pastelería</option>
+                    <option value="Cocina Japonesa">Cocina Japonesa</option>
+                    <option value="Costumbre Argentina">Costumbre Argentina</option>
+                    <option value="Pasteleria">Pastelería</option>
                 </select>
+                <span id="curso-error" class="error"></span>
             </div>
             <button type="submit">Enviar</button>
         </form>
-        <div id="resultado"></div>
-    </div>
-    <script src="formulario.js"></script>
-
+        <div id="resultado" class="exito"></div>
 </body>
 </html>

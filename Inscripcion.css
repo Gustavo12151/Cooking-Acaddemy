@@ -35,20 +35,20 @@ button {
     cursor: pointer;
 }
 
-#resultado {
+.resultado {
     margin-top: 20px;
     padding: 10px;
     border-radius: 5px;
     display: none;
 }
 
-#error {
+.error {
     background-color: #ff6b6b;
     border: 1px solid #ff3b3b;
     color: #ff0000;
 }
 
-#exito {
+.exito {
     background-color: #68d285;
     border: 1px solid #4aae6d;
     color: #008000;

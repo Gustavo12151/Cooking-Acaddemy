@@ -38,7 +38,7 @@ nav a:hover{
 body{
   font-family: sans-serif;
   background-color: rgba(253, 236, 214, 0.575);
-  background-image: url(./Imagenes/Logo2-Grande.jpg); /* Ruta a tu imagen de fondo */
+  background-image: url(Logo2-Grande.jpg); /* Ruta a tu imagen de fondo */
   background-size: cover; /* Opciones para el tamaño de la imagen de fondo */
   background-repeat: no-repeat; /* Evitar repetición de la imagen */
   background-attachment: fixed; /* Fija la imagen de fondo */
